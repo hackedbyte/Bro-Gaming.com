@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bro Gaming - Similar Site</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #212121;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    }
+    header h1 {
+      font-size: 24px;
+      color: #c3dcda;
+      margin: 0;
+    }
+    nav a {
+      color: #313231;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1606813909360-2d13228cae5e?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px #000;
+      font-size: 36px;
+      font-weight: bold;
+      color: #ededed;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+    .section-title {
+      border-bottom: 2px solid #7455f1;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #222;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 6px rgba(46, 58, 57, 0.4);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .card-content p {
+      font-size: 14px;
+      color: #ccc;
+      line-height: 1.4;
+    }
+    footer {
+      background: #212121;
+      color: #f19558;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bro Gaming</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Reviews</a>
+      <a href="#">News</a>
+      <a href="#">Guides</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    ƊᴏㅤσʀㅤƊɪᴇㅤ!
+  </div>
+
+  <div class="container">
+    <section>
+      <h2 class="section-title">Latest Reviews</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80" alt="Game 1" />
+          <div class="card-content">
+            <h3>Game Title One</h3>
+            <p>A thrilling adventure with stunning visuals and an immersive storyline.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1565494265950-cd5eccf09626?auto=format&fit=crop&w=800&q=80" alt="Game 2" />
+          <div class="card-content">
+            <h3>Game Title Two</h3>
+            <p>Fast-paced action with strategic depth - perfect for competitive gamers.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80" alt="Game 3" />
+          <div class="card-content">
+            <h3>Game Title Three</h3>
+            <p>Explore vast open worlds while facing challenging puzzles and foes.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section style="margin-top: 40px;">
+      <h2 class="section-title">Latest News</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1517260916169-0d59eeb9f9c7?auto=format&fit=crop&w=800&q=80" alt="News 1" />
+          <div class="card-content">
+            <h3>New Console Release</h3>
+            <p>Everything you need to know about the latest console launch and features.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80" alt="News 2" />
+          <div class="card-content">
+            <h3>Upcoming Game Updates</h3>
+            <p>Stay updated with patch notes and upcoming content for your favorite games.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Bro Gaming. All rights reserved.
+  </footer>
+</body>
+</html>
